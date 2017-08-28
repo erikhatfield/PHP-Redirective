@@ -5,7 +5,9 @@ This project is intended as an exercise in PHP.
 ## what it do
 When this PHP web page is requested by a visitor, it checks to see if a query variable of 'url' exists and if it begins with a string that matches 'http://'. If true, then it redirects to the URL in the query variable 'url'. If false, then it renders the html from the PHP.  
 For example, if the visitor requests the PHP page at:
-`http://erikhatfield.com/example.php?url="http://3rik.me"`
+```
+http://erikhatfield.com/example.php?url=http://3rik.me
+```
 The PHP program redirects the browser window to [3rik.me/](http://3rik.me)
 
 Else, it renders the HTML of example.php.
