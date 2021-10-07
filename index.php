@@ -1,7 +1,7 @@
 <?php
 /*
- * get ?query_variable from url after /
- * and check if the substring of hte first 7 characters is 'http://'
+ * get ?query variable 'url'
+ * and check if the substring of the first 7 characters is 'http://'
  * if so, redirect using the full string	
 **/
 $qvURL = $_GET["url"];
